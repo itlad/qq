@@ -16,7 +16,7 @@ app.initializers.add('itlad-qq', () => {
   extend(LogInButtons.prototype, 'items', function (items) {
     items.add(
       'QQAndH5',
-      <QQLogInButton className="Button LogInButton--QQ" icon="fab fa-qq" path="/auth/qq">
+      <QQLogInButton className="Button LogInButton--QQ" icon="fab fa-qq" path="/auth-qq">
         {app.translator.trans('itlad-qq.forum.log_in.with_qq_button')}
       </QQLogInButton>
     );

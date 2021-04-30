@@ -26,7 +26,7 @@ return [
   new Extend\Locales(__DIR__ . '/resources/locale'),
 
   (new Extend\Routes('forum'))
-    ->get('/auth/qq', 'auth.qq', QQAuthController::class),
+    ->get('/auth-qq', 'auth.qq', QQAuthController::class),
 
   (new Extend\Routes('api'))
     ->get('/authh5/qq', 'authh5.qq', QQAuthH5Controller::class),
